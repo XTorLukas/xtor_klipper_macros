@@ -25,3 +25,16 @@ git clone https://github.com/LastuvkaLukas/xtor_klipper_macros XTOR
 cd ~/printer_data/config/XTOR
 git pull
 ```
+
+## Update via Moonraker
+- Open your `moonraker.cfg`
+- Copy this
+  
+```command
+[update_manager XTOR]
+type: git_repo
+primary_branch: master
+path: ~/printer_data/config/XTOR
+origin: https://github.com/LastuvkaLukas/xtor_klipper_macros.git
+managed_services: klipper
+```
