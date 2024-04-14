@@ -7,7 +7,7 @@
   
 ```command
 cd ~/printer_data/config
-git clone -n --depth=1 --filter=tree:0 https://github.com/LastuvkaLukas/xtor_klipper_macros.git XTOR
+git clone -n --depth=1 --filter=tree:0 https://github.com/XTorLukas/xtor_klipper_macros.git XTOR
 cd XTOR
 git sparse-checkout set --no-cone macros
 git checkout
@@ -28,6 +28,6 @@ git checkout
 type: git_repo
 primary_branch: master
 path: ~/printer_data/config/XTOR
-origin: https://github.com/LastuvkaLukas/xtor_klipper_macros.git
+origin: https://github.com/XTorLukas/xtor_klipper_macros.git
 managed_services: klipper
 ```
